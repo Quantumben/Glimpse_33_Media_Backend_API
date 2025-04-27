@@ -89,7 +89,7 @@ Your application will be available at `http://127.0.0.1:8000`.
 **Request Body:**
 ```json
 {
-  "name": "Event Name",
+  "event_name": "Event Name",
   "start_datetime": "2025-05-01 10:00:00",
   "end_datetime": "2025-05-01 12:00:00",
   "max_participants": 100,
@@ -102,7 +102,7 @@ Your application will be available at `http://127.0.0.1:8000`.
   "message": "Event created successfully",
   "data": {
     "id": 1,
-    "name": "Event Name",
+    "event_name": "Event Name",
     "start_datetime": "2025-05-01 10:00:00",
     "end_datetime": "2025-05-01 12:00:00",
     "max_participants": 100,
@@ -122,7 +122,7 @@ Your application will be available at `http://127.0.0.1:8000`.
   "data": [
     {
       "id": 1,
-      "name": "Event Name",
+      "event_name": "Event Name",
       "start_datetime": "2025-05-01 10:00:00",
       "end_datetime": "2025-05-01 12:00:00",
       "max_participants": 100,
@@ -142,7 +142,7 @@ Your application will be available at `http://127.0.0.1:8000`.
   "message": "Event fetch successfully",
   "data": {
     "id": 1,
-    "name": "Event Name",
+    "event_name": "Event Name",
     "start_datetime": "2025-05-01 10:00:00",
     "end_datetime": "2025-05-01 12:00:00",
     "max_participants": 100,
@@ -158,7 +158,7 @@ Your application will be available at `http://127.0.0.1:8000`.
 **Request Body:**
 ```json
 {
-  "name": "Updated Event Name",
+  "event_name": "Updated Event Name",
   "start_datetime": "2025-05-02 10:00:00",
   "end_datetime": "2025-05-02 12:00:00",
   "max_participants": 150,
@@ -171,7 +171,7 @@ Your application will be available at `http://127.0.0.1:8000`.
   "message": "Event updated successfully",
   "data": {
     "id": 1,
-    "name": "Updated Event Name",
+    "event_name": "Updated Event Name",
     "start_datetime": "2025-05-02 10:00:00",
     "end_datetime": "2025-05-02 12:00:00",
     "max_participants": 150,
